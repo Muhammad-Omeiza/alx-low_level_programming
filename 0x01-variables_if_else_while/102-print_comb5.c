@@ -23,7 +23,7 @@ putchar((a % 10) + n1);
 putchar(32);
 putchar((b / 10) + n1);
 putchar((b % 10) + n1);
-if(a != 98 || b != 99) 
+if (a != 98 || b != 99)
 {
 putchar(com);
 putchar(32);
@@ -33,5 +33,5 @@ b += 1;
 a += 1;
 }  
 putchar('\n');
-return (0);
+return(0);
 }
