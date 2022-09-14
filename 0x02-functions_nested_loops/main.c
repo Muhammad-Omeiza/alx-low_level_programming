@@ -1,7 +1,5 @@
 #include "main.h"
 
-#include <stdio.h>
-
 
 
 /**
@@ -18,13 +16,15 @@ int main(void)
   
 {
   
-  int n;
+  print_to_98(0);
   
-
+  print_to_98(98);
   
-  n = add(89, 9);
+  print_to_98(111);
   
-  printf("%d\n", n);
+  print_to_98(81);
+  
+  print_to_98(-10);
   
   return (0);
   
