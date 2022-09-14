@@ -15,7 +15,7 @@ int idx;
 
 for (idx = 0; idx < 8; idx++)
 
-  {
-_putchat(str[idx]);
+{
+_putchar(str[idx]);
 }
 }
