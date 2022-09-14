@@ -18,5 +18,6 @@ for (idx = 0; idx < 8; idx++)
 {
 _putchar(str[idx]);
 }
+_putchar('\n');
 return (0);
 }
