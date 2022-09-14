@@ -1,10 +1,10 @@
-#include"main.h"
+#include "main.h"
 /**
-* Main: Entry point of the program
+* main: Entry point of the program
 *
 * Description: Simple program to print _putchar
 *
-* Return: Alwyas return 0
+* Return: Always 0
 */
 int main (void)
 {
@@ -15,4 +15,5 @@ for (index = 0; index < 8; index++)
 _putchar(arr[index]);
 }
 _putchar('\n');
-return (0);
+retrun (0);
+  
