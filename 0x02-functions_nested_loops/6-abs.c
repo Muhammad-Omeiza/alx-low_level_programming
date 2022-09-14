@@ -1,7 +1,6 @@
 #include"main.h"
-
 /**
-* _abs - function to return the absolute value of a number (i.e the positive value of the number)
+* _abs - function to return the absolute value of a number
 *
 * @n: n of type int
 *
