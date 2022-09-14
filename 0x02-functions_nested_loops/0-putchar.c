@@ -18,4 +18,5 @@ for (idx = 0; idx < 8; idx++)
 {
 _putchar(str[idx]);
 }
+return (0);
 }
