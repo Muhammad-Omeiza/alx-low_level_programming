@@ -1,7 +1,5 @@
 #include "main.h"
 
-#include <stdio.h>
-
 
 
 /**
@@ -22,21 +20,15 @@ int main(void)
   
 
   
-  r = _abs(-1);
+  print_last_digit(98);
   
-  printf("%d\n", r);
+  print_last_digit(0);
   
-  r = _abs(0);
+  r = print_last_digit(-1024);
   
-  printf("%d\n", r);
+  _putchar('0' + r);
   
-  r = _abs(1);
-  
-  printf("%d\n", r);
-  
-  r = _abs(-98);
-  
-  printf("%d\n", r);
+  _putchar('\n');
   
   return (0);
   
