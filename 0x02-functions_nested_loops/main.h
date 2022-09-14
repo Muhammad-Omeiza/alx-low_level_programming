@@ -1,4 +1,4 @@
-#include "main.h"
+#include"main.h"
 /**
 * main: Entry point of the program
 *
@@ -15,4 +15,4 @@ for (index = 0; index < 8; index++)
 _putchar(arr[index]);
 }
 _putchar('\n');
-retrun (0);
+return (0);
