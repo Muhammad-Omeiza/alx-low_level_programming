@@ -16,13 +16,25 @@ int main(void)
   
 {
   
-  print_triangle(2);
+  print_number(98);
   
-  print_triangle(10);
+  _putchar('\n');
   
-  print_triangle(1);
+  print_number(402);
   
-  print_triangle(0);
+  _putchar('\n');
+  
+  print_number(1024);
+  
+  _putchar('\n');
+  
+  print_number(0);
+  
+  _putchar('\n');
+  
+  print_number(-98);
+  
+  _putchar('\n');
   
   return (0);
   
